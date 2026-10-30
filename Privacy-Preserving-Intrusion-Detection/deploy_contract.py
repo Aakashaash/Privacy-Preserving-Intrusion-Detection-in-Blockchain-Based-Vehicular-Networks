@@ -6,7 +6,7 @@ from solcx import compile_source, install_solc
 
 # ---------- Configuration & Environment Bindings ----------
 RPC_URL = os.getenv("WEB3_RPC_URL", "http://127.0.0.1:8545")
-CONTRACT_SRC_PATH = "contracts/SecurityLedger.sol"
+CONTRACT_SRC_PATH = "SecurityLedger.sol"
 ABI_OUT_DIR = "contracts"
 ABI_OUT_PATH = os.path.join(ABI_OUT_DIR, "SecurityLedger.abi.json")
 
